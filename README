@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=277
+
+In response to a query on the vim mailing list I developed this quick function which prepends the line number to the beginning of each line. The line numbers are left justified and formatted with a 1 character white space on either side of the number.
+
+There are two methods of operation. The first prepends the line numbers to each line and is activated with :Printwln    (or ":Printwln(0)" ). The second method of calling causes the program to prepend the line number and then go on to print the file using ":hardcopy", and then undo the changes it just made. This allows you to print off the contents of a file without changing it.
+
+Hope it helps someone.
+
+Colin.
